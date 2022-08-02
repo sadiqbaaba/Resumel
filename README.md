@@ -36,38 +36,38 @@ Obtain basic information about the data using the head() and info() method.
 
 Task 3 - Data Cleaning and Preparation
 
-TODO A - Clean the scraped data
+A. Clean the scraped data
 
-TODO B - Get a Pandas DataFrame for Daily Confirmed Cases in Nigeria. Columns are Date and Cases
+B. Get a Pandas DataFrame for Daily Confirmed Cases in Nigeria. Columns are Date and Cases
 
-TODO C - Get a Pandas DataFrame for Daily Recovered Cases in Nigeria. Columns are Date and Cases
+C. Get a Pandas DataFrame for Daily Recovered Cases in Nigeria. Columns are Date and Cases
 
-TODO D - Get a Pandas DataFrame for Daily Death Cases in Nigeria. Columns are Date and Cases
+D - Get a Pandas DataFrame for Daily Death Cases in Nigeria. Columns are Date and Cases
 
 Task 4 - Analysis
 
-Here you will perform some analyses on the datasets. You are welcome to communicate findings in charts and summary. 
+Perform some analyses on the datasets. You are welcome to communicate findings in charts and summary. 
 We have included a few TODOs to help with your analysis. However, do not let this limit your approach, feel free to include more, and be sure to support your findings with chart and summary
 
-TODO A - Generate a plot that shows the Top 10 states in terms of Confirmed Covid cases by Laboratory test
+ A - Generate a plot that shows the Top 10 states in terms of Confirmed Covid cases by Laboratory test
 
-TODO B - Generate a plot that shows the Top 10 states in terms of Discharged Covid cases. Hint - Sort the values
+B - Generate a plot that shows the Top 10 states in terms of Discharged Covid cases. Hint - Sort the values
 
-TODO D - Plot the top 10 Death cases
+ D - Plot the top 10 Death cases
 
-TODO E - Generate a line plot for the total daily confirmed, recovered and death cases in Nigeria
+E - Generate a line plot for the total daily confirmed, recovered and death cases in Nigeria
 
-TODO F -
+ F -
 
 •	Determine the daily infection rate, you can use the Pandas diff method to find the derivate of the total cases.
 •	Generate a line plot for the above
 
-TODO G -
+G -
 
 •	Calculate maximum infection rate for a day (Number of new cases)
 •	Find the date
 
-TODO H - Determine the relationship between the external dataset and the NCDC COVID-19 dataset. Here you will generate a line plot of top 10 confirmed cases and the overall community vulnerability index on the same axis. From the graph, explain your observation. 
+ H - Determine the relationship between the external dataset and the NCDC COVID-19 dataset. Here you will generate a line plot of top 10 confirmed cases and the overall community vulnerability index on the same axis. From the graph, explain your observation. 
 
 Steps
 
@@ -75,18 +75,18 @@ Steps
 •	Create a new dataframe for plotting. This DataFrame will contain top 10 states in terms of confirmed cases i.e sort by confirmed cases. Hint: Check out Pandas nlargest function. This tutorial can help out 
 •	Plot both variable on the same axis. Check out this tutorial
 
-TODO I - Determine the relationship between the external dataset and the NCDC COVID-19 dataset.
+I - Determine the relationship between the external dataset and the NCDC COVID-19 dataset.
 
 •	Here you will generate a regression plot between two variables to visualize the linear relationships - Confirmed Cases and Population Density. Hint: Check out Seaborn Regression Plot.
 •	Provide a summary of your observation
 
-TODO J -
+ J -
 
 •	Provide more analyses by extending TODO G & H. Meaning, determine relationships between more features.
 •	Provide a detailed summary of your findings. 
 •	Note that you can have as many as possible.
 
-TODO L -
+L -
 
 Determine the effect of the Pandemic on the economy. To do this, you will compare the Real GDP value Pre-COVID-19 with Real GDP in 2020 (COVID-19 Period, especially Q2 2020) 
 
